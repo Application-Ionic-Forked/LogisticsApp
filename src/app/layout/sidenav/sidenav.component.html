@@ -3,13 +3,11 @@
 		<ion-header class="sidenav-header">
 			<ion-toolbar class="sidenav-toolbar"></ion-toolbar>
 		</ion-header>
-		<ion-content>
+		<ion-content class="sidenav-content">
 			<ion-list>
 				<ion-item [routerLink]="['']" (click)="routeClickCloseMenu()">
-				  <ion-icon name="qr-code-outline"></ion-icon>
-				  <ion-label margin>
-					 <b>Nowe dostawa</b>
-				  </ion-label>
+					<ion-icon name="qr-code-outline"></ion-icon>
+					<ion-label>Nowa dostawa</ion-label>
 				</ion-item>
 			</ion-list>
 		</ion-content>

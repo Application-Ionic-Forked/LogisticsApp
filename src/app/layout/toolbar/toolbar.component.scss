@@ -1,0 +1,12 @@
+.toolbar-content-wrapper {
+	.main-toolbar {
+		--background: var(--layout-highlight-color);
+		--min-height: 48px;
+
+		.toolbar-left-slot {
+			.toolbar-toggle-menu-btn {
+				--color: var(--layout-white-color);
+			}
+		}
+	}
+}
