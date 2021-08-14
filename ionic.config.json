@@ -1,7 +1,7 @@
 {
-  "name": "LogisticsApp",
-  "integrations": {
-    "capacitor": {}
-  },
-  "type": "angular"
+	"name": "LogisticsApp",
+	"integrations": {
+		"capacitor": {}
+	},
+	"type": "angular"
 }
