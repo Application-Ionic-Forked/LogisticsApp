@@ -1,0 +1,11 @@
+.sidenav-wrapper {
+	.sidenav {
+		--width: 300px;
+
+		.sidenav-header {
+			.sidenav-toolbar {
+				--background: var(--layout-highlight-color);
+			}
+		}
+	}
+}

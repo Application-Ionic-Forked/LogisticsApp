@@ -1,0 +1,19 @@
+<div class="sidenav-wrapper">
+	<ion-menu side="start" menuId="first" contentId="main" class="sidenav backdrop" swipeGesture="true">
+		<ion-header class="sidenav-header">
+			<ion-toolbar class="sidenav-toolbar"></ion-toolbar>
+		</ion-header>
+		<ion-content>
+			<ion-list>
+				<ion-item [routerLink]="['']" (click)="routeClickCloseMenu()">
+				  <ion-icon name="qr-code-outline"></ion-icon>
+				  <ion-label margin>
+					 <b>Nowe dostawa</b>
+				  </ion-label>
+				</ion-item>
+			</ion-list>
+		</ion-content>
+	</ion-menu>
+
+	<ion-router-outlet id="main"></ion-router-outlet>
+</div>
